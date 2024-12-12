@@ -1,0 +1,19 @@
+/* body style */
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #a13d3d; /* Keep the body background color */
+    height: 100vh; /* Make sure the body takes up the full height */
+}
+
+/* Ensure #root takes full height and can show content properly */
+#root {
+    background-color: blue; /* Background of root div */
+    height: 100vh; /* Make the root container take up full viewport height */
+}
+
+/* Add styles to canvas for visibility */
+canvas {
+    border: 1px solid red; /* Border to make the canvas visible */
+}
